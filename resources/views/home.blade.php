@@ -3,3 +3,6 @@
     <a  href="{{ url('resources/' . $user->id)}}" >go to see  user details</a> "<br/>"
     
 @endforeach
+
+
+<a href="/resources/create">Add an user</a>
